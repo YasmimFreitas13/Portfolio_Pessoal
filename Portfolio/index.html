@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav_links">
+                <ul>
+                    <li><a class="home" href="#home.html"> <img src="./assets/perfil.png" alt="Logo"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+                <div class="limite_menu"></div>
+            </nav>
+
+        </header>
+
+        <main class="apresentacao">
+            <section class="apresentacao_conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Olá, eu sou a</h1>
+                <h1 class="apresentaca_destaque"><strong class="titulo_destaque">Yasmim Freitas</strong></h1>
+                <p class="apresentacao__conteudo__texto">Desenvolvedora Front-end!</p>
+
+                <div class="apresentacao_habilidades">
+                    <h2 class="apresentacao_habilidades_subtitulo">Minhas habilidades:</h2>
+                    <div class="apresentacao_habilidades_icones">
+                        <a><img src="./assets/HTML.svg" alt="HTML"></a>
+                        <a><img src="./assets/CSS.svg" alt="CSS"></a>
+                        <a><img src="./assets/JS.svg" alt="JavaScript"></a>
+                        <a><img src="./assets/Python.svg" alt="Python"></a>
+                        <a><img src="./assets/Git.svg" alt="Git"></a>
+                    </div>
+                </div>
+
+            </section>
+            <div>
+                <img class="apresentacao__imagem" src="./assets/perfil.png" alt="Foto da Yasmim Freitas">
+            </div>
+
+        </main>
+
+        <section id="sobre-mim" class="sobre-mim">
+            <div class="apresentacao_sobre_mim">
+                <h1 class="apresentacao_sobre_mim_titulo">Sobre mim</h1>
+                <p class="sobre_mim">Tenho 22 anos e sou estudante de Análise e Desenvolvimento de Sistemas em
+                    Campinas-SP. Tenho conhecimentos em programação, com foco em desenvolvimento front-end, e sou
+                    apaixonada por tecnologia..</p>
+                <p class="sobre_mim">Estou sempre buscando aprender novas tecnologias, trabalhar em projetos práticos e
+                    evoluir profissionalmente para alcançar meu lugar no mercado de TI..</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h1 class="apresentacao_projetos_titulo">Projetos</h1>
+            <div class="grade_projetos">
+                <div class="card_projeto">
+                    <img class="img_projeto" src="./assets/spotify.png" alt="Spotify">
+                    <div class="info_projeto">
+                        <h3>Spotify</h3>
+                        <p>O Clone de Interface do Spotify foi desenvolvido durante a Imersão da Alura com foco em HTML,
+                            CSS e JavaScript.
+                            O objetivo foi recriar visualmente a interface do Spotify Web, praticando conceitos de
+                            layout responsivo com Flexbox e Grid, uso de variáveis CSS e organização semântica.
+                            É um ótimo exercício para treinar construção de interfaces modernas e atenção aos detalhes
+                            de design.</p>
+                        <a href="https://spotify-imersao-alura-projeto.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">
+                            Ver Projeto <img class="arrow" src="assets/seta.svg" alt="seta subindo" srcset="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card_projeto">
+                    <img class="img_projeto" src="./assets/jogo.png" alt="Jogo do Número Secreto">
+                    <div class="info_projeto">
+                        <h3>Jogo do Número Secreto</h3>
+                        <p>O Jogo do Número Secreto é um projeto simples desenvolvido durante um curso da Alura, com o
+                            objetivo de praticar HTML, CSS e JavaScript.
+                            No jogo, o sistema sorteia um número aleatório e o jogador tenta adivinhar, recebendo dicas
+                            se o número é maior ou menor.
+                            O projeto ensina conceitos como manipulação do DOM, eventos, lógica condicional e geração de
+                            números aleatórios.</p>
+                        <a href="https://jogo-do-numero-secreto-phi-gray.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">
+                            Ver Projeto <img class="arrow" src="assets/seta.svg" alt="seta subindo" srcset="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="back-to-top">
+                <a href="#">
+                    <img class="arrow-up" src="assets/arrow-up.svg" alt="Voltar ao topo">
+                </a>
+            </div>
+            <section id="contatos" class="contatos">
+
+                <h1 class="apresentacao_contatos_titulo">Contatos</h1>
+                <div class="apresentacao_meus_contatos">
+
+                    <div class="apresentacao_contatos">
+                        <a href="mailto:yasmimfreitas13@yahoo.com.br">
+                            <img class="img_contato" src="./assets/email.svg" alt="E-mail">
+                            <h3>yasmimfreitas13@yahoo.com.br</h3>
+                        </a>
+                    </div>
+
+                    <div class="apresentacao_contatos">
+                        <a href="https://api.whatsapp.com/send?phone=5519982138606" target="_blank"
+                            rel="noopener noreferrer">
+                            <img class="img_contato" src="./assets/telefone.svg" alt="Telefone">
+                            <h3>(19) 98213-8606</h3>
+                        </a>
+                    </div>
+
+                    <div class="apresentacao_contatos">
+                        <a href="https://www.linkedin.com/in/yasmim-freitas-965377174" target="_blank"
+                            rel="noopener noreferrer">
+                            <img class="img_contato" src="./assets/linkedin.svg" alt="Linkedin">
+                            <h3>Yasmim Freitas</h3>
+                        </a>
+                    </div>
+
+
+                    <div class="apresentacao_contatos">
+                        <a href="https://github.com/YasmimFreitas13" target="_blank" rel="noopener noreferrer">
+                            <img class="img_contato" src="./assets/github.svg" alt="Github">
+                            <h3>YasmimFreitas13</h3>
+                        </a>
+                    </div>
+                </div>
+    </div>
+    </section>
+    </footer>
+    </div>
+
+    <script>
+        const linksInternos = document.querySelectorAll('.nav_links a[href^="#"]');
+
+        function scrollToSection(event) {
+            event.preventDefault();
+            const href = event.currentTarget.getAttribute('href');
+            const section = document.querySelector(href);
+            section.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+
+        linksInternos.forEach(link => {
+            link.addEventListener('click', scrollToSection);
+        });
+    </script>
+</body>
+
+</html>
