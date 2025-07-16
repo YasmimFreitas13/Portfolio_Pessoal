@@ -14,4 +14,7 @@ const linksInternos = document.querySelectorAll('.nav_links a[href^="#"]');
         link.addEventListener('click', scrollToSection);
     });
 
+
+
+
  
