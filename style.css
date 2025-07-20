@@ -404,37 +404,7 @@ main {
  
 }
 
-.carrossel {
-  padding: 0 10px;
-  overflow: hidden;
-  width: 100%;
-  max-width: 100%;
-}
 
-.carrossel-track {
-   display: flex;
-  gap: 16px; /* Reduzido para deixar os ícones mais juntos */
-  animation: deslizar 20s linear infinite;
-}
 
-.carrossel-track img {
-  width: 40px;
-  height: 40px;
-  transition: transform 0.3s ease;
-  filter: drop-shadow(0 0 2px #00000044);
-}
-
-.carrossel-track img:hover {
-  transform: scale(1.2);
-}
-
-@keyframes deslizar {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
 
 
