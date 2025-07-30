@@ -13,6 +13,7 @@ const linksInternos = document.querySelectorAll('.nav_links a[href^="#"]');
     linksInternos.forEach(link => {
         link.addEventListener('click', scrollToSection);
     });
+    
 
 
 

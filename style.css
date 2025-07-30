@@ -155,7 +155,7 @@ main {
   margin-bottom: 20px;
 }
 
-.apresentacao_habilidades_icones {
+.carrossel-habilidades {
   display: flex;
   gap: 30px; /* Espaçamento entre os ícones GAP ALTERRADO PARA 56PX*/
   margin-bottom: 20px;
@@ -403,6 +403,49 @@ main {
   }
  
 }
+
+.carrossel-habilidades {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.carrossel-track {
+  display: flex;
+  gap: 16px; /* espaçamento reduzido */
+  animation: deslizar 20s linear infinite;
+  width: max-content;
+}
+
+.carrossel-track img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.carrossel-track img:hover {
+  transform: scale(1.2)
+}
+
+@keyframes deslizar {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carrossel-track img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+
 
 
 
