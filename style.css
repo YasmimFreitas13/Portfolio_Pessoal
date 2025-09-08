@@ -259,11 +259,55 @@ main {
   font-weight: 600;
 }
 
-.arrow {
-  width: 16px;
-  height: 16px;
-  margin-left: 8px;
+.tags {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 5px; /* distância entre as tags */
+  margin-bottom: 12px; /* espaço entre tags e botões */
 }
+
+.tags span {
+  background: var(--cor-primaria);
+  margin: 3px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: var(--font-secundaria);
+  color: #7e22ce;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 15px; /* espaço entre os botões */
+  margin-top: 10px;
+}
+
+.buttons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px; /* espaço entre emoji e texto */
+  padding: 4px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--cor-terciaria); /* cor do texto */
+  background-color: var(--cor-primaria);
+  font-family: var(--font-secundaria);
+  font-weight: bold;
+  transition: background 0.3s;
+
+}
+
+.buttons a:hover {
+  background-color: var(--cor-secundaria);
+}
+
+.buttons a span.emoji {
+  color: var(--cor-terciaria)
+
+}
+
 
 .contatos {
   padding: 5% 0%; /* PADDING LATERAL ALTERADO PARA 0 */
