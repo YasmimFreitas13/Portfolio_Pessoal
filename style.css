@@ -262,7 +262,7 @@ main {
 .tags {
   display: flex;
   flex-wrap: wrap; 
-  gap: 5px; /* distância entre as tags */
+  gap: 3px; /* distância entre as tags */
   margin-bottom: 12px; /* espaço entre tags e botões */
 }
 
@@ -274,7 +274,9 @@ main {
   font-size: 1rem;
   font-family: var(--font-secundaria);
   color: #7e22ce;
-
+  
+  /* Borda adicionada */
+  border: 2px solid #7e22ce;
 }
 
 .buttons {
@@ -282,6 +284,7 @@ main {
   justify-content: center; /* centraliza horizontalmente */
   gap: 15px; /* espaço entre os botões */
   margin-top: 10px;
+  
 }
 
 .buttons a {
@@ -296,8 +299,10 @@ main {
   font-family: var(--font-secundaria);
   font-weight: bold;
   transition: background 0.3s;
-
+  /* Borda adicionada */
+  border: 2px solid #7e22ce;
 }
+
 
 .buttons a:hover {
   background-color: var(--cor-secundaria);
