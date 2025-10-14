@@ -467,7 +467,7 @@ main {
 
 @media only screen and (max-width: 768px) {
   body {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -475,7 +475,7 @@ main {
 
   /* CSS para telas pequenas */
   .wrapper {
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -485,9 +485,16 @@ main {
 
   .nav_links {
     display: flex;
-    font-size: 12px;
+    font-size: 0.1rem;
     justify-content: space-between;
   }
+
+  .home img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+}
 
   .apresentacao__imagem {
     width: 180px;
