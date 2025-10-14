@@ -519,56 +519,7 @@ main {
     max-width: 333px;
   }
 
-  /* ----------- CARDS DE PROJETOS E CERTIFICADOS ----------- */
-  .grade_projetos,
-  .grade_certificados {
-    grid-template-columns: 1fr; /* Apenas 1 card por linha */
-  }
-
-  .img_projeto,
-  .certificado {
-    width: 100%;
-    height: auto;
-  }
-
-  .info_projeto h3,
-  .info_certificado h3 {
-    font-size: 1.2rem;
-  }
-
-  .info_projeto p,
-  .info_certificado p {
-    font-size: 0.9rem;
-  }
 }
-
-/* ----------- BOTÕES (corrigido) ----------- */
-.buttons {
-  display: flex;
-  gap: 10px;               /* espaço entre os botões */
-  justify-content: center; /* centraliza dentro do card */
-  flex-wrap: wrap;         /* quebra linha se faltar espaço */
-}
-
-.buttons a {
-  display: inline-flex;    /* ocupa só o tamanho do conteúdo */
-  align-items: center;
-  gap: 5px;                /* espaço entre ícone e texto */
-  padding: 8px 16px;
-  border: 2px solid #7e22ce;
-  border-radius: 10px;
-  color: #7e22ce;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  width: auto;             /* não ocupar largura total */
-}
-
-.buttons a:hover {
-  background-color: #7e22ce;
-  color: #fff;
-}
-
 /* ----------- CARROSSEL ----------- */
 .carrossel-habilidades {
   overflow: hidden;
