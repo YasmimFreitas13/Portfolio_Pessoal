@@ -56,6 +56,7 @@ main {
   height: 40px;
   width: 40px;
   border-radius: 50%;
+
 }
 
 .nav_links .limite_menu {
@@ -306,6 +307,84 @@ main {
 
 }
 
+/* Seção de certificados */
+.certificados {
+  padding: 5% 0%; /* PADDING LATERAL ALTERADO PARA 0 */
+}
+
+.apresentacao_certificados_titulo {
+  font-size: 1.5rem;
+  font-family: var(--font-primaria);
+  margin-bottom: 20px;
+}
+
+.grade_certificados {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ gap: 30px;
+ align-items: stretch; /* Esta propriedade fará todos os cards na mesma linha terem a mesma altura */
+}
+
+.card_certificado .certificado { /* Seleciona a imagem com a classe 'certificado' dentro de '.card_certificado' */
+    width: 100%; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0; 
+}
+
+/* Certifique-se de que .card_certificado tem flex-direction: column */
+.card_certificado {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: auto; 
+    background-color: var(--cor-hover);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card_certificado:hover {
+    transform: scale(1.05); /* Aumenta o card em 5% no hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra para destacar */
+}
+
+/* Ajustes para o info_certificado */
+.info_certificado {
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.info_certificado h3 {
+  width: 100%;
+  height: 50px;
+  font-size: 1.5rem;
+  font-family: var(--font-primaria);
+  color: var(--cor-secundaria);
+  margin-bottom: 0px;
+}
+
+.info_certificado p {
+  font-size: 1rem;
+  font-family: var(--font-secundaria);
+  color: var(--cor-secundaria);
+  margin-bottom: 20px;
+}
+
+/* Reutilize a classe .buttons dos projetos para os certificados */
+.card_certificado .buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    margin-top: auto;  
+    padding: 10px; 
+    width: 100%; 
+    box-sizing: border-box;
+}
 
 .contatos {
   padding: 5% 0%; /* PADDING LATERAL ALTERADO PARA 0 */
@@ -338,12 +417,12 @@ main {
   display: flex;
   font-size: 1rem;
   flex-direction: column;
-  align-items: center; /* Centraliza horizontalmente o ícone e o texto */
-  text-align: center; /* Alinha o texto ao centro */
-  gap: 10px; /* Reduzi um pouco o gap entre o ícone e o texto */
-  padding: 15px; /* Adicionei um pouco de padding interno para dar mais espaço ao redor do conteúdo do contato */
-  border-radius: 8px; /* Adicionei um pequeno border-radius para um visual mais suave */
-  transition: background-color 0.3s ease; /* Adicionei uma transição suave para o hover */
+  align-items: center; 
+  text-align: center; 
+  gap: 10px; 
+  padding: 15px; 
+  border-radius: 8px; 
+  transition: background-color 0.3s ease; 
 }
 
 .apresentacao_contatos:hover {
@@ -353,14 +432,14 @@ main {
 /* Ícone com tamanho fixo e centralizado */
 .apresentacao_contatos a {
   text-decoration: none; /* Remove o sublinhado padrão dos links */
-  color: var(--cor-secundaria); /* Mantém a cor do texto */
-  display: flex; /* Garante que o link ocupe todo o espaço do div */
-  flex-direction: column; /* Mantém o ícone e o texto empilhados verticalmente */
-  align-items: center; /* Centraliza os itens dentro do link */
-  gap: 5px; /* Mantém o espaçamento entre o ícone e o texto dentro do link */
-  width: 100%; /* Faz o link ocupar toda a largura do div pai */
-  height: 100%; /* Faz o link ocupar toda a altura do div pai */
-  transition: transform 0.2s ease-in-out; /* Adiciona transição suave */
+  color: var(--cor-secundaria); 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  gap: 5px; 
+  width: 100%; 
+  height: 100%; 
+  transition: transform 0.2s ease-in-out; 
 }
 
 .apresentacao_contatos a:hover {
@@ -381,9 +460,9 @@ main {
 
 /* Estilo para o texto dentro do link (h3) */
 .apresentacao_contatos a h3 {
-  margin: 0; /* Remove a margem padrão do h3 */
-  font-size: 1rem; /* Mantém o tamanho da fonte */
-  font-family: var(--font-secundaria); /* Mantém a fonte */
+  margin: 0; 
+  font-size: 1rem; 
+  font-family: var(--font-secundaria);
 }
 
 @media only screen and (max-width: 768px) {
