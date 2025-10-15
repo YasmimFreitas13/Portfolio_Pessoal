@@ -504,8 +504,8 @@ main {
 
 
   .nav_links ul li a {
-    font-size: 0.7rem; /* diminui um pouco */
-    padding: 2px 4px;
+    font-size: 0.8rem; /* diminui um pouco */
+    padding: 1px 1px;
     white-space: nowrap; /* não quebra linha */
     display: inline-block; /* evita quebra forçada */
   }
@@ -536,7 +536,7 @@ main {
     gap: 10px;
     margin-left: 1rem;
   }
-
+  
   .sobre_mim {
     max-width: 333px;
     font-size: 0.8rem;
