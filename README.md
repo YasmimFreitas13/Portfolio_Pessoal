@@ -7,7 +7,7 @@
 
 ## 🌐 Demonstração
 
-![Imagem da tela inicial do portfólio](assets/tela_portfolio.png)
+![Imagem da tela inicial do portfólio](assets/tela.png)
 
 💜 Desenvolvido com dedicação por **Yasmim Freitas** 💜
 
