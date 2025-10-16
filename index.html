@@ -17,7 +17,7 @@
           <li>
             <a class="home" href="#home">
               <img src="./assets/perfil.png" alt="Logo" />
-            </a>           
+            </a>
           </li>
         </ul>
         <ul>
@@ -47,7 +47,6 @@
               <img src="./assets/JS.svg" alt="JavaScript" />
               <img src="./assets/HTML.svg" alt="HTML" />
               <img src="./assets/CSS.svg" alt="CSS" />
-              <!-- duplicado para loop contínuo -->
               <img src="./assets/python.svg" alt="Python" />
               <img src="./assets/Git.svg" alt="Git" />
               <img src="./assets/JS.svg" alt="JavaScript" />
@@ -67,29 +66,30 @@
       <div class="apresentacao_sobre_mim">
         <h1 class="apresentacao_sobre_mim_titulo">Sobre mim</h1>
         <p class="sobre_mim">
-          Sou desenvolvedora full-stack apaixonada por tecnologia e inovação, com 23 anos e residente em Campinas-SP.
-          Atualmente, curso Análise e Desenvolvimento de Sistemas, e tenho experiência prática em Python, HTML, CSS,
-          JavaScript e Git, aplicando esses conhecimentos em projetos reais que refletem minha dedicação e aprendizado contínuo.
+         Sou desenvolvedora Full-Stack com experiência em Python, HTML, CSS, JavaScript e Git. Aos 23 anos, 
+         residente em Campinas-SP e estudante de Análise e Desenvolvimento de Sistemas, tenho como objetivo 
+         criar soluções inovadoras e de alta qualidade. Minha paixão por tecnologia é complementada por uma sólida base em vendas e administração.
         </p>
+        <br>
         <p class="sobre_mim">
-          No meu portfólio, você encontrará projetos que vão desde aplicações web interativas até réplicas de
-          interfaces populares, todos desenvolvidos com foco em usabilidade, design responsivo e soluções criativas.
-          Gosto de explorar novas tecnologias e aprimorar minhas habilidades constantemente, buscando sempre resolver
-          problemas de forma eficiente e inovadora.
-        </p>
-        <p class="sobre_mim">
-          Sou motivada por desafios e pela oportunidade de contribuir em equipes colaborativas,
-          trazendo tanto minhas habilidades técnicas quanto meu comprometimento com a entrega de resultados de qualidade.
-          Meu objetivo é crescer como profissional de tecnologia, criando soluções que impactem positivamente a experiência do usuário e o mundo ao meu redor.
+          Nessas experiências anteriores, aprimorei habilidades de organização, proatividade e comunicação, 
+          que hoje me ajudam a entender as necessidades de um projeto e a colaborar de forma mais eficaz em equipe. 
+          No meu portfólio, você encontrará projetos que refletem essa união de competências técnicas e interpessoais, 
+          demonstrando minha dedicação e compromisso em entregar soluções completas e eficientes.
         </p>
       </div>
     </section>
 
     <section id="projetos" class="projetos">
       <h1 class="apresentacao_projetos_titulo">Projetos</h1>
+      <div class="filtro_botoes">
+        <button class="filtro_btn active" data-filter="todos">Todos</button>
+        <button class="filtro_btn" data-filter="full-stack">Full-Stack</button>
+        <button class="filtro_btn" data-filter="back-end">Back-End</button>
+        <button class="filtro_btn" data-filter="front-end">Front-End</button>
+      </div>
       <div class="grade_projetos">
-        <!-- Projetos 1 a 6: mantidos exatamente como você enviou -->
-        <div class="card_projeto">
+        <div class="card_projeto todos back-end">
           <img class="img_projeto" src="./assets/Dashboard_Python.PNG" alt="Dashboard Interativo Alura" />
           <div class="info_projeto">
             <h3>Dashboard Interativo Alura</h3>
@@ -115,7 +115,7 @@
           </div>
         </div>
 
-        <div class="card_projeto">
+        <div class="card_projeto todos back-end">
           <img class="img_projeto" src="./assets/sistema_bancario.PNG" alt="Sistema Bancário Python" />
           <div class="info_projeto">
             <h3>Sistema Bancário Python</h3>
@@ -132,7 +132,7 @@
           </div>
         </div>
 
-        <div class="card_projeto">
+        <div class="card_projeto todos back-end">
           <img class="img_projeto" src="./assets/calculadora_python.PNG" alt="Calculadora em Python" />
           <div class="info_projeto">
             <h3>Calculadora em Python</h3>
@@ -152,7 +152,7 @@
           </div>
         </div>
 
-        <div class="card_projeto">
+        <div class="card_projeto todos full-stack">
           <img class="img_projeto" src="./assets/qualidade_do_ar.png" alt="Qualidade do Ar" />
           <div class="info_projeto">
             <h3>Qualidade do Ar</h3>
@@ -178,7 +178,7 @@
           </div>
         </div>
 
-        <div class="card_projeto">
+        <div class="card_projeto todos front-end">
           <img class="img_projeto" src="./assets/spotify.png" alt="Spotify" />
           <div class="info_projeto">
             <h3>Imersão Alura Spotify</h3>
@@ -203,7 +203,7 @@
           </div>
         </div>
 
-        <div class="card_projeto">
+        <div class="card_projeto todos front-end">
           <img class="img_projeto" src="./assets/jogo.png" alt="Jogo do Número Secreto" />
           <div class="info_projeto">
             <h3>Jogo do Número Secreto</h3>
@@ -230,103 +230,103 @@
     </section>
 
     <section id="certificados" class="certificados">
-    <h1 class="apresentacao_certificados_titulo">Certificados</h1>
-    <div class="grade_certificados">
+      <h1 class="apresentacao_certificados_titulo">Certificados</h1>
+      <div class="grade_certificados">
         <div class="card_certificado">
-            <img class="certificado" src="./assets/certificado_dio.PNG" alt="Python Developer DIO" />
-            <div class="info_certificado">
-                <h3>Python Developer DIO</h3>
-                <p>
-                   Focado em desenvolvimento Python, o bootcamp abordou sintaxe, estruturas de dados e Programação Orientada a Objetos (POO). 
-                   Também incluiu o uso de ferramentas de produtividade, como o Microsoft Copilot Studio, e a integração com serviços de 
-                   Inteligência Artificial para otimização de projetos.
-                </p>
-                <div class="buttons">
-                    <a href="https://hermes.dio.me/certificates/Q0OVSNAV.pdf" class="btn code" target="_blank">
-                        <span class="emoji">📂</span> Credencial
-                    </a>
-                </div>
+          <img class="certificado" src="./assets/certificado_dio.PNG" alt="Python Developer DIO" />
+          <div class="info_certificado">
+            <h3>Python Developer DIO</h3>
+            <p>
+              Focado em desenvolvimento Python, o bootcamp abordou sintaxe, estruturas de dados e Programação Orientada a Objetos (POO).
+              Também incluiu o uso de ferramentas de produtividade, como o Microsoft Copilot Studio, e a integração com serviços de
+              Inteligência Artificial para otimização de projetos.
+            </p>
+            <div class="buttons">
+              <a href="https://hermes.dio.me/certificates/Q0OVSNAV.pdf" class="btn code" target="_blank">
+                <span class="emoji">📂</span> Credencial
+              </a>
             </div>
+          </div>
         </div>
 
         <div class="card_certificado">
-            <img class="certificado" src="./assets/certificado_imersaodados.PNG" alt="Imersão de Dados com Python Alura" />
-            <div class="info_certificado">
-                <h3>Imersão de Dados Alura</h3>
-                <p>
-                  Este projeto se concentrou na manipulação e visualização de dados. Para isso, foram utilizadas bibliotecas como Pandas, Numpy e Plotly, além do Streamlit para a criação de dashboards interativos. O foco foi em exibir informações de forma dinâmica, aplicando filtros em tempo real e explorando dados salariais.
-                </p>
-                
-                <div class="buttons">
-                    <a href="https://cursos.alura.com.br/immersion/certificate/1e8fe737-54f7-48b4-835e-1276b0ebfe23?lang" class="btn code" target="_blank">
-                        <span class="emoji">📂</span> Credencial
-                    </a>
-                </div>
+          <img class="certificado" src="./assets/certificado_imersaodados.PNG" alt="Imersão de Dados com Python Alura" />
+          <div class="info_certificado">
+            <h3>Imersão de Dados Alura</h3>
+            <p>
+              Este projeto se concentrou na manipulação e visualização de dados. Para isso, foram utilizadas bibliotecas como Pandas, Numpy e Plotly, além do Streamlit para a criação de dashboards interativos. O foco foi em exibir informações de forma dinâmica, aplicando filtros em tempo real e explorando dados salariais.
+            </p>
+
+            <div class="buttons">
+              <a href="https://cursos.alura.com.br/immersion/certificate/1e8fe737-54f7-48b4-835e-1276b0ebfe23?lang" class="btn code" target="_blank">
+                <span class="emoji">📂</span> Credencial
+              </a>
             </div>
+          </div>
         </div>
 
         <div class="card_certificado">
-            <img class="certificado" src="./assets/certificado_pythonsenai.png" alt="Programação em Python Senai" />
-            <div class="info_certificado">
-                <h3>Programação Python Senai</h3>
-                <p>
-                 O curso abordou a lógica de programação, com ênfase na identificação de requisitos e na elaboração de algoritmos. Também incluiu a configuração de ambientes de desenvolvimento em Python, a validação de software através de testes e a demonstração de habilidades de organização para a entrega de projetos.
-                </p>
-                 <div class="buttons">
-                    <a href="https://www.sp.senai.br/consulta-certificado?qrcode=50124150530/14735712" class="btn code" target="_blank">
-                        <span class="emoji">📂</span> Credencial
-                    </a>
-                </div>
+          <img class="certificado" src="./assets/certificado_pythonsenai.png" alt="Programação em Python Senai" />
+          <div class="info_certificado">
+            <h3>Programação Python Senai</h3>
+            <p>
+              O curso abordou a lógica de programação, com ênfase na identificação de requisitos e na elaboração de algoritmos. Também incluiu a configuração de ambientes de desenvolvimento em Python, a validação de software através de testes e a demonstração de habilidades de organização para a entrega de projetos.
+            </p>
+            <div class="buttons">
+              <a href="https://www.sp.senai.br/consulta-certificado?qrcode=50124150530/14735712" class="btn code" target="_blank">
+                <span class="emoji">📂</span> Credencial
+              </a>
             </div>
+          </div>
         </div>
 
         <div class="card_certificado">
-            <img class="certificado" src="./assets/certificado_programaçãofrontend.PNG" alt="Programação Front-end Alura" />
-            <div class="info_certificado">
-                <h3>Programação Front-end</h3>
-                 <p>
-                  Este certificado abrange o desenvolvimento front-end completo, explorando a lógica de programação com JavaScript e os ambientes de desenvolvimento. Também foram aplicados conceitos avançados de HTML e CSS, como o uso de Flexbox, para criação de interfaces responsivas. A colaboração com Git e GitHub foi um ponto chave.
-                 </p>
-                <div class="buttons">
-                    <a href="https://cursos.alura.com.br/degree/certificate/a9681ee9-260a-4180-80d5-2aae15d2f6e9" class="btn code" target="_blank">
-                        <span class="emoji">📂</span> Credencial
-                    </a>
-                </div>
+          <img class="certificado" src="./assets/certificado_programaçãofrontend.PNG" alt="Programação Front-end Alura" />
+          <div class="info_certificado">
+            <h3>Programação Front-end</h3>
+            <p>
+              Este certificado abrange o desenvolvimento front-end completo, explorando a lógica de programação com JavaScript e os ambientes de desenvolvimento. Também foram aplicados conceitos avançados de HTML e CSS, como o uso de Flexbox, para criação de interfaces responsivas. A colaboração com Git e GitHub foi um ponto chave.
+            </p>
+            <div class="buttons">
+              <a href="https://cursos.alura.com.br/degree/certificate/a9681ee9-260a-4180-80d5-2aae15d2f6e9" class="btn code" target="_blank">
+                <span class="emoji">📂</span> Credencial
+              </a>
             </div>
+          </div>
         </div>
 
         <div class="card_certificado">
-            <img class="certificado" src="./assets/certificado_imersaofrontend.PNG" alt="Imersão Front-end Alura" />
-            <div class="info_certificado">
-                <h3>Imersão Front-end Alura</h3>
-                 <p>
-                   A imersão focou na construção de interfaces web e na integração com APIs. As habilidades práticas incluem a criação de layouts responsivos com HTML e CSS, a manipulação de dados da API do Spotify e o desenvolvimento de um projeto prático que integra tanto o front-end quanto o back-end, proporcionando uma experiência completa. 
-                 </p>
-                <div class="buttons">
-                    <a href="https://cursos.alura.com.br/immersion/certificate/26c4f7c7-493b-4c51-a7e8-1588f62f0439" class="btn code" target="_blank">
-                        <span class="emoji">📂</span> Credencial
-                    </a>
-                </div>
+          <img class="certificado" src="./assets/certificado_imersaofrontend.PNG" alt="Imersão Front-end Alura" />
+          <div class="info_certificado">
+            <h3>Imersão Front-end Alura</h3>
+            <p>
+              A imersão focou na construção de interfaces web e na integração com APIs. As habilidades práticas incluem a criação de layouts responsivos com HTML e CSS, a manipulação de dados da API do Spotify e o desenvolvimento de um projeto prático que integra tanto o front-end quanto o back-end, proporcionando uma experiência completa.
+            </p>
+            <div class="buttons">
+              <a href="https://cursos.alura.com.br/immersion/certificate/26c4f7c7-493b-4c51-a7e8-1588f62f0439" class="btn code" target="_blank">
+                <span class="emoji">📂</span> Credencial
+              </a>
             </div>
+          </div>
         </div>
 
         <div class="card_certificado">
-            <img class="certificado" src="./assets/certificado_techjá.PNG" alt="Suporte em TI" />
-            <div class="info_certificado">
-                <h3>Supote em TI Tech Já</h3>
-                 <p>
-                   Este curso abordou os fundamentos do suporte técnico e da infraestrutura de TI. Os tópicos incluíram o funcionamento das redes de computadores, a administração de sistemas operacionais e servidores, e a segurança da informação. A capacitação prepara para atuar com eficiência em diferentes desafios da área, incluindo o suporte a sistemas.
-                 </p>
-                <div class="buttons">
-                    <a href="https://e-certificado.com/login/visualizar?c=2011323A6E058BD813153950" class="btn code" target="_blank">
-                        <span class="emoji">📂</span> Credencial
-                    </a>
-                </div>
+          <img class="certificado" src="./assets/certificado_techjá.PNG" alt="Suporte em TI" />
+          <div class="info_certificado">
+            <h3>Supote em TI Tech Já</h3>
+            <p>
+              Este curso abordou os fundamentos do suporte técnico e da infraestrutura de TI. Os tópicos incluíram o funcionamento das redes de computadores, a administração de sistemas operacionais e servidores, e a segurança da informação. A capacitação prepara para atuar com eficiência em diferentes desafios da área, incluindo o suporte a sistemas.
+            </p>
+            <div class="buttons">
+              <a href="https://e-certificado.com/login/visualizar?c=2011323A6E058BD813153950" class="btn code" target="_blank">
+                <span class="emoji">📂</span> Credencial
+              </a>
             </div>
+          </div>
         </div>
 
-    </div>
-</section>
+      </div>
+    </section>
 
     <footer>
       <div class="back-to-top">
@@ -377,6 +377,9 @@
     }
     linksInternos.forEach(link => link.addEventListener('click', scrollToSection));
   </script>
+
+  <script src="./filtro.js"></script>
 </body>
+
 
 </html>
