@@ -11,7 +11,7 @@
 
 💜 Desenvolvido com dedicação por **Yasmim Freitas** 💜
 
-🔗 **Acesse aqui:** [https://portfolio-pessoal-sigma.vercel.app](https://portfolio-pessoal-sigma.vercel.app)
+🔗 **Acesse aqui:** [https://portfolio-pessoal-lake.vercel.app/](https://portfolio-pessoal-lake.vercel.app/)
 
 ---
 
